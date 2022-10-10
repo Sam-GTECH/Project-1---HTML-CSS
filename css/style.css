@@ -1,5 +1,16 @@
 body {
+	margin:auto;
 	background-color: black;
 	color: white;
 	font-family: 'fixedsys_excelsior_3.01Rg';
+}
+
+.header {
+	text-align: center;
+	height: 100vh;
+}
+
+.header h1 {
+	margin: auto;
+	vertical-align: middle;
 }
