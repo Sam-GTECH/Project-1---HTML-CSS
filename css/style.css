@@ -92,7 +92,7 @@ nav {
 	background-color: black;
 }
 
-nav ul{	
+nav ul{
 	display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
