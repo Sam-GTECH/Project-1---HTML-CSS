@@ -54,29 +54,32 @@ body {
 	color: red !important;
 }
 
-
-.path #first{
-    border: 6px;
-    border-color: white;
-    border-style: solid;
-    width: 600px;
-    height: 100px;
-    margin-left: 250px;
-    /*^ propriétés de la box / v prorpiétés du texte*/
-    display: flex;
+.path {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	margin-left: 300px;
+	margin-right: 300px;
+	flex-direction: column;
 }
 
-.path #second{
-    border: 6px;
-    border-color: white;
-    border-style: solid;
-    width: 600px;
-    height: 100px;
-    float: right;
-    margin-right: 250px;
-    /*^ propriétés de la box / v prorpiétés du texte*/
-    display: flex;
+.box {
+	display: flex;
+	background-color: black;
+	border: 6px solid white;
+	width: 600px;
+	height: 100px;
+	margin: 10px;
 }
+
+.left {
+	justify-content: left;
+}
+
+.right {
+	justify-content: right;
+}
+
 /*=======*/
 .ruins {
 	height: 200%;
@@ -104,4 +107,16 @@ a {
 
 a:hover {
 	color: yellow;
+}
+
+.path h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 300%;
+}
+
+.intro {
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
 }
