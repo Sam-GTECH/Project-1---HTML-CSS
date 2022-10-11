@@ -1,16 +1,45 @@
+@font-face {
+  font-family: Fixedsys;
+  src: url(8bitOperatorPlus-Bold.ttf);
+}
+
 body {
 	margin:auto;
 	background-color: black;
 	color: white;
-	font-family: 'fixedsys_excelsior_3.01Rg';
+	font-family: 'Fixedsys';
 }
 
 .header {
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	height: 100vh;
+	margin-top: 40vh;
+	margin-bottom: 40vh;
 }
 
 .header h1 {
-	margin: auto;
-	vertical-align: middle;
+	margin-top: 0;
+}
+
+.header h2 {
+	font-size: 40px;
+}
+
+.yellow {
+	color: yellow !important;
+}
+
+.red {
+	color: red !important;
+}
+
+.ruins {
+	height: 200%;
+	background-image: url("../img/ruinbg.png");
+	background-size: auto;
 }
